@@ -17,12 +17,27 @@ class Grade_Test(unittest.TestCase):
             return average
     
     def test_average_two(self, average):
+        grades = []
+        average = grades / len(grades)
         average = "{:.4f}".format(float)
         return average
+    def test_average_returns_nan(self, mathnan):
+        mathnan = len(grades)
+        mathnan == mathnan / 2
+        mathnan == mathnan
+    
+    def median(self, mathnan):
+        mathnan = len(grades)
+        mathnan == mathnan / 2
+        mathnan == mathnan
+        if(mathnan == 0):
+            print("Error")
+
     
 
 
-    
+mathnan = []
 grades = []
 average = grades / len(grades)
+print(Average)
 unittest.main()
